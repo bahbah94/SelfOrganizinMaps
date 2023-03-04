@@ -13,8 +13,12 @@ Few are results of taking a matrix training sample, with RGB colors,
 And aligning the SOM to match our intial training data.![som image](https://user-images.githubusercontent.com/17704242/222905952-bcd3f159-8dd2-4dd4-8a3d-bf10ee2876c8.png)
 
 
-And below is an example, of when we change our $\sigma$ for our distance function. 
+And below is an example, of when we change our $\sigma$ for our distance function. :
 
+![sigma](https://user-images.githubusercontent.com/17704242/222906054-9f61945e-2ab8-437b-affb-ab1bdbd5bfdc.png)
+
+We can see, that if $\sigma$ is extremely low, SOM changes for the individual cells, and a smoothing representation is found for larger $\sigma$ values, but a more chaotic and less segregated distritbution can be seen from our larger learning rates.
+ 
 Credit goes to :
 - https://en.wikipedia.org/wiki/Self-organizing_map
 - https://stackabuse.com/self-organizing-maps-theory-and-implementation-in-python-with-numpy/
